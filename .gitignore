@@ -1,0 +1,18 @@
+# Compiled binary
+drukdeals/drukdeals
+drukdeals/drukdeals_server
+
+# Environment files
+.env
+**/.env
+
+# Uploaded user files
+drukdeals/uploads/*
+!drukdeals/uploads/.gitkeep
+
+# Claude Code internal
+.claude/
+.devcontainer-internal.json
+
+# OS
+.DS_Store
